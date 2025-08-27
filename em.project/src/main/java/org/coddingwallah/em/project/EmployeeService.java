@@ -1,0 +1,16 @@
+package org.coddingwallah.em.project;
+import java.util.List;
+
+
+
+
+public interface EmployeeService {
+    
+String createEmployee(Employee employee);
+ List<Employee> readEmployees();
+boolean deleteEmployee(Long id);
+String UpdateEmloyee(Long id, Employee employee);
+
+Employee readEmployee(Long id);
+
+}
